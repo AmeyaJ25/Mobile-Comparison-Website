@@ -1,0 +1,95 @@
+*{font-family: 'Baloo Bhai 2', cursive;
+margin: 0%;
+padding: 0%;}
+
+table {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	display: inline-block;
+    border: 0;
+	border-spacing: 0 0px;
+	/* border-collapse: collapse; */
+	margin-top: 10px;
+}
+
+.value {
+	/* background: linear-gradient(to right, #30eeff 0%, #a3f7ff 100%); */
+	text-align: right;
+    /* border: solid 3px #000;
+    border-style: solid none; */
+    padding: 15px;
+	background-color: rgba(255, 255, 255, 0.933);
+	box-shadow: -8px 0px 5px rgba(32,32,32,.3);
+    /* border-right-style: solid; 
+    border-bottom-right-radius: 10px; 
+	border-top-right-radius: 10px;  */
+	
+}
+#tinfo tr:nth-child(odd){
+	background-color:#757575;
+}
+
+#specs {
+	/* background: linear-gradient(to right, #00a6ff 0%, #30eeff 100%);
+	border-spacing: 10px; */
+	background-color: aquamarine;
+	text-align: left;
+    /* border: solid 3px #000;
+    border-style: solid none; */
+	padding: 15px;
+	font-weight: bold;
+    /* border-left-style: solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; */
+}
+
+
+#timg {
+	text-align: center;
+	padding: 60px;
+	box-shadow: -5px 7px 5px rgba(32,32,32,.3);
+	background-color: white;
+	border: solid 3px #000;
+	border-left-style: solid;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+}
+
+#tinfo {
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0px 7px 5px rgba(32,32,32,.3);
+	background-color: white;
+	border: solid 3px #000;
+	border-right-style: solid;
+    border-bottom-right-radius: 25px; 
+	border-top-right-radius: 25px;
+	border-collapse: collapse;
+}
+
+#grad {    /* background-color: rgb(63,94,251); */
+    /* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,236,252,1) 100%); */
+    background-image: url(https://images.unsplash.com/photo-1520375300877-3500f50d069e?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-repeat: no-repeat;
+    background-size: contain;
+      }
+
+#suggestion {
+	margin: 31px;
+	border-spacing: 5% 0px;
+	text-align: center;
+	border: solid 3px #000; 
+	padding: 10px;
+	background-color: white;
+	border-radius: 20px;
+	margin-left: 25%;
+}
+
+#lastt {
+	border-spacing: 10px;
+}
+#sugg{
+	width: 700px;
+}
